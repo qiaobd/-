@@ -4,7 +4,7 @@
 
 1.发帖文章标题储存在xss漏洞
 
-![avatar](https://imgchr.com/i/AOitun)
+![1] (https://imgchr.com/i/AOitun)
 
 构造POC
 
