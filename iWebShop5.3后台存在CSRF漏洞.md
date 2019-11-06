@@ -3,6 +3,7 @@
 1.在`管理员`->`添加管理员`功能处存在CSRF漏洞
 
 ![image](http://wx2.sinaimg.cn/mw690/0060lm7Tly1g0vg867mdmj30tz0nt75j.jpg)
+
 POC
 
 `<html>`
