@@ -5,7 +5,7 @@
 
 
 
-# GxlCMS v1.1.4存在储存xss漏洞
+# GxlCMS 储存xss漏洞
 
 漏洞POC
 
