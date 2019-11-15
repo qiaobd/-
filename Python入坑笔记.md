@@ -3,7 +3,7 @@
 ```
 zip(list1,list2)
 ```
-zip函数同事便利两个列表
+zip函数同时便利两个列表
 
 ```
 import sys
