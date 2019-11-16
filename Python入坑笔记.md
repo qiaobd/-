@@ -1,5 +1,5 @@
 ### Python入坑记
-####两个for 循环同时输出+正则文章
+#### 两个for 循环同时输出+正则文章
 ```
 zip(list1,list2)
 ```
@@ -23,3 +23,29 @@ for line,urls in zip(c,d):
 
 
 ```
+
+#### Linux基本信息收集
+
+```
+***************************
+import sys
+import os
+
+#c2=os.system("uname -a")
+#c3=os.system("pwd")
+print('***************************')
+print(os.system("whoami"))
+
+#print('系统内核'+c2)
+print('***************************')
+#print('当前路径'+c3)
+print(os.system("uname -a"))
+print('***************************')
+print(os.system("pwd"))
+print('***************************')
+print(os.system("ls -l"))
+print('***************************')                                                                                                                          
+```
+
+![16741210545451.png](https://i.loli.net/2019/11/16/6nXJHmgaqOzVy8M.png)
+
