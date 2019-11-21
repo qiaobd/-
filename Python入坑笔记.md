@@ -95,3 +95,31 @@ for ip in a.readlines():
         
 ```
 
+#### 查询手机归属地
+
+```
+
+import pandas as pd
+import xlwt import *
+from phone import Phone
+#book=xlwt.Workbook('hhcl.xlsx')
+#sheet=book.add_sheet('hhlc')
+
+book = xlwt.Workbook(encoding='utf-8',style_compression=0)
+sheet = book.add_sheet('mysheet',cell_overwrite_ok=True)
+
+f1=open(r'12232.txt','r')
+f2=open('doct1.csv','wb')
+for phoneNUM in f1.readlines():
+	phoneNum=phoneNUM.strip("\t\r\n")
+	#phoneNUM=str(phoneNUM)
+	#print(phoneNum)
+	p=Phone()
+	info=p.find(phoneNum)
+	if info is 	None:
+		pass
+	else:
+		print(info['phone']+"------"+info['province']+"------"+info['city']+"-------"+info["area_code"]+"-------"+info["phone_type"])
+		#'cityzip_code','area_code','phone_type'
+
+```
