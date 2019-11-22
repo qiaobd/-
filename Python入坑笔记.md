@@ -123,3 +123,26 @@ for phoneNUM in f1.readlines():
 		#'cityzip_code','area_code','phone_type'
 
 ```
+
+
+#### 函数调用
+
+```
+
+import requests
+from bs4 import BeautifulSoup
+url="http://www.baidu.com"
+def re_url(url):#设置请求 
+    respone=requests.get(url).content
+    return respone#返回参数
+
+def soup_txt(res):#soup格式化
+    sou_text=BeautifulSoup(res,"html.parser")
+    #print(sou_text)
+    return sou_text
+    
+res=re_url(url)#调用方法
+html=soup_txt(res)#调用方法
+print(html)
+
+```
