@@ -239,3 +239,24 @@ for codes in code:
 名称：['中通安全应急响应中心']---------------网址：https://sec.zto.com/----------------------------------邮箱：mailto: security@zto.cn
 名称：['智联招聘SRC']---------------网址：https://src.zhaopin.com----------------------------------邮箱：mailto:src@zhaopin.com.cn
 ```
+#### 漏洞盒子
+
+```
+import requests
+import json
+import jsonpath
+
+
+for i in range(1,57):
+    data1={'page':i}
+
+
+    url="https://www.vulbox.com/json/getCompanyInfoByName"
+    respone=requests.post(url,data=data1).content.decode('utf-8')
+    json_tmp=json.loads(respone)
+    bus=jsonpath.jsonpath(json_tmp,'$..bus_name')
+    url=jsonpath.jsonpath(json_tmp,'$..bus_url')
+    for buss,urls in zip(bus,url):
+        print("公司："+buss+"<------>"+"网址："+urls)
+
+```
