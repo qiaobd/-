@@ -45,11 +45,14 @@ Linux 列目录 c3lzdGVtKCdscycpOw==
 
 Windows 列目录  c3lzdGVtKCdkaXInKTs=
 
-![2.png](https://i.loli.net/2019/12/21/dkFgfJ2rPQZz1N8.png)
+
+![image-20191221123903128.png](https://i.loli.net/2019/12/21/IWfJDHjhbYGPqac.png)
+
 
 ### 查看网站根目录
 
 利用`phpinfo`-查找`document_root`
 
-![image-20191221123903128.png](https://i.loli.net/2019/12/21/IWfJDHjhbYGPqac.png)
+![2.png](https://i.loli.net/2019/12/21/dkFgfJ2rPQZz1N8.png)
+
 
