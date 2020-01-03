@@ -1,2 +1,2 @@
-# System kill dog
+# System用户直接 kill dog
 `taskkill /f /im safedogguardcenter.exe`
