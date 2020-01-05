@@ -1,4 +1,4 @@
-# Openfire后台GETSHELL
+# Openfire漏洞
 
 ### Openfire, Version: 4.3.2
 
