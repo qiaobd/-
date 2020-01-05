@@ -1,4 +1,4 @@
-### Python入坑记
+# Python学习
 #### 两个for 循环同时输出+正则文章
 ```
 zip(list1,list2)
