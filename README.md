@@ -6,11 +6,11 @@
 ```
   这里记录我看到的美文及自己的笔记，心得，感谢大牛引路。晚辈尽力追赶。
 ```
-![always_for_we_life](https://s2.ax1x.com/2020/01/06/lrQRoR.jpg)
+![always_for_we_life_always_want_you](https://s2.ax1x.com/2020/01/06/lrQRoR.jpg)
 
 #### 续续，一起加油！！ 🤞🤞🤞🤞🤞
 
 #### 欢迎建议 bugman.apt#gmail.com
 
-👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️👯‍♀️
-![always_want_you](https://s2.ax1x.com/2020/01/05/lDuFfO.jpg)
+🚄🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🌏🌏🌏🌏🌏🌏
+
