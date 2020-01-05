@@ -55,4 +55,23 @@ Windows 列目录  c3lzdGVtKCdkaXInKTs=
 
 ![2.png](https://i.loli.net/2019/12/21/dkFgfJ2rPQZz1N8.png)
 
+## 无文件SHELL姿势
+
+## 蚁剑无文件shell连接姿势
+
+![img](https://mmbiz.qpic.cn/mmbiz_png/Y4GGz5GfRtR5FXFEduwT0tniaOBd9icIsRNicKTWsMJZyeobvxHX8B7hsZW1dRbIpkbNmY1Xw3A4ESib8uFhTXHb9Q/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+编码器记得改成base64
+
+然后将一句话进行base64编码，复制到 Accept-Charset:后面
+
+![img](https://mmbiz.qpic.cn/mmbiz_png/Y4GGz5GfRtR5FXFEduwT0tniaOBd9icIsR9MFQTXFK2IW1TkF2FDE4fHQ8zw2cZ2qe5MtRjt54exrCGSDAFM1WTg/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+修改蚁剑内的请求信息，处Header头修改如图下
+
+![img](https://mmbiz.qpic.cn/mmbiz_png/Y4GGz5GfRtR5FXFEduwT0tniaOBd9icIsRwRxIP80puCZOoCqwW5OSiaa0DdEnjdP5erHib8o9LHGZHka22LQD5roQ/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
+测试连接，成功连接上
+
+
 
