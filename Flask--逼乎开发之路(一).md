@@ -4,8 +4,6 @@
 
 ```
 pip Install pipenv
-
-
 ```
 
 ### 运行pipenv
