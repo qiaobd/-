@@ -6,7 +6,7 @@
 ---
 ```
 POST /base/post.php HTTP/1.1
-Host: www.sdyycm.com
+Host: www.xx.com
 User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:18.0) Gecko/20100101 Firefox/18.0
 Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
 Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3
@@ -67,3 +67,4 @@ Content-Disposition: form-data; name="submit"
 getsell
 ------WebKitFormBoundary92Ek3CIGduLPoRLt--
 ```
+---
