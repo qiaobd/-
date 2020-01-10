@@ -22,7 +22,7 @@ act=appcode
 
 ```
 POST /base/appplus.php HTTP/1.1
-Host: www.sdyycm.com
+Host: www.xx.com
 Content-Length: 711
 Cache-Control: max-age=0
 Upgrade-Insecure-Requests: 1
