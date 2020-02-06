@@ -8,7 +8,7 @@
 ```
 ![always_for_we_life_always_want_you](https://s2.ax1x.com/2020/01/06/lrQRoR.jpg)
 
-### 续续，一起加油！！ 🤞🤞🤞🤞🤞
+### 小东西，一起加油！！ 🤞🤞🤞🤞🤞
 
 >希望遇到那个人，
 
